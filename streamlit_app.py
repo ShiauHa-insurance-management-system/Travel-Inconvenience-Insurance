@@ -68,7 +68,7 @@ if mode == "📝 客戶投保填寫":
         u_start = c5.text_input("出發日期與時間 *", placeholder="例：2026-05-01 09:00")
         u_end = c6.text_input("回程日期與時間 *", placeholder="例：2026-05-05 18:00")
         
-        u_pay = st.selectbox("繳費方式 *", ["請選擇", "超商繳費單", "刷卡"])
+        u_pay = st.selectbox("繳費方式 *", ["請選擇", "網銀匯款", "刷卡"])
         u_line = st.text_input("業務或您的 LINE ID *")
         
         st.divider()
